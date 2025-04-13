@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  .nav-button.active {
+    background-color: #2196F3;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  .nav-button.completed {
+    background-color: #4CAF50;
+    color: white;
+  }
